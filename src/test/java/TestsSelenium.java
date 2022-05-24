@@ -16,6 +16,7 @@ public class TestsSelenium {
     public void testInputFieldDemoQA() {
 
         String expectedFullName = "Kamile";
+        Object WebDriverManager = null;
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
